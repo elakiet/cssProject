@@ -1,0 +1,96 @@
+body {
+    background-color: #000;
+    color: #ffff;
+    font-family: sans-serif;
+    margin: 50;
+    padding: 100;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: larger;
+    height: 100vh;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .search {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .search input {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .search button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .content {
+    text-align: center;
+    font-style: fantasy;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button-log-in {
+    background-color: red;
+    color: #fff;
+  }
+  
+  .button-sign-up {
+    background-color: green;
+    color: #fff;
+  }
+  
+  .footer {
+    background-color: red;
+    color: #0b0a0a;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
