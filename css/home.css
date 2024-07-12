@@ -22,8 +22,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    width: 100%;
+    width: 80%;
   }
   
   .nav-links {
@@ -60,12 +59,15 @@ body {
   .content {
     text-align: center;
     font-style: fantasy;
+    font-size: large;
+    justify-content: center;
   }
   
   .buttons {
     display: flex;
     gap: 20px;
     margin-top: 20px;
+    justify-content: center;
   }
   
   .button {
